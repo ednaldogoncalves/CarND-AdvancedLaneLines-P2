@@ -131,7 +131,7 @@ After applying calibration, thresholding, and a perspective transform to a road 
 
 Plotting a histogram of where the binary activations occur across the image is one potential solution for this.<br>
 <p align="center">
-<img src="./docs/6.1_histogram.png">
+<img src="./docs/6.1_histogram.png" width="636">
 </p>
 
 #### Sliding Window
@@ -142,7 +142,7 @@ The x & y coordinates of non zeros pixels are found, a polynomial is fit for the
 
 We can use the two highest peaks from our histogram as a starting point for determining where the lane lines are, and then use sliding windows moving upward in the image (further along the road) to determine where the lane lines go.<br>
 <p align="center">
-<img src="./docs/6.2_sliding_window.png">
+<img src="./docs/6.2_sliding_window.png" width="636">
 </p>
 
 #### Search from Prior
@@ -151,14 +151,14 @@ Using the full algorithm from before and starting fresh on every frame may seem 
 We need to do a blind search again, but instead you can just search in a margin around the previous line position, like in the above image. The green shaded area shows where we searched for the lines this time. So, once we know where the lines are in one frame of video, we can do a highly targeted search for them in the next frame.
 This is equivalent to using a customized region of interest for each frame of video, and should help us track the lanes through sharp curves and tricky conditions.<br>
 <p align="center">
-<img src="./docs/6.3_search_from_prior.png">
+<img src="./docs/6.3_search_from_prior.png" width="636">
 </p>
 
 ### Determine the lane curvature
 
 We have a thresholded image, where we've estimated which pixels belong to the left and right lane lines (shown in red and blue, respectively, above), and you've fit a polynomial to those pixel positions. Next we'll compute the radius of curvature of the fit.<br>
 <p align="center">
-<img src="./docs/7_lane_curvature.jpg">
+<img src="./docs/7_lane_curvature.jpg" width="636">
 </p>
 
 ### Inverse Transform
