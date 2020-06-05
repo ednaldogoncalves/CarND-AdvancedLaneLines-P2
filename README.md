@@ -169,7 +169,7 @@ In this block of code we:
 - Perform an inverse perspective transform
 - Combine the precessed image with the original image.<br>
 <p align="center">
-<img src="./docs/8_inverse_transform.png" width="438">
+<img src="./docs/8_inverse_transform.png" width="636">
 </p>
 
 ## Results:
