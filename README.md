@@ -158,7 +158,7 @@ This is equivalent to using a customized region of interest for each frame of vi
 
 We have a thresholded image, where we've estimated which pixels belong to the left and right lane lines (shown in red and blue, respectively, above), and you've fit a polynomial to those pixel positions. Next we'll compute the radius of curvature of the fit.<br>
 <p align="center">
-<img src="./docs/7_lane_curvature.png">
+<img src="./docs/7_lane_curvature.jpg">
 </p>
 
 ### Inverse Transform
@@ -169,7 +169,7 @@ In this block of code we:
 - Perform an inverse perspective transform
 - Combine the precessed image with the original image.<br>
 <p align="center">
-<img src="./docs/8_inverse_transform.jpg">
+<img src="./docs/8_inverse_transform.png">
 </p>
 
 ## Results:
