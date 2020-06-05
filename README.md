@@ -1,13 +1,13 @@
-# CarND-AdvancedLaneLine-P2
+# CarND - Advanced Lane Finding - Project 2
 Udacity Self-Driving Car Engineer Nanodegree Program<br>[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+<br>
+<p align="center">
+<img src="./docs/00_original_processed_img.png">
+</p>
 
 # Overview
 
 In this project, the goal is to write a software pipeline to identify the lane boundaries in a video from a front-facing camera on a car. The camera calibration images, test road images, and project videos are available in the project repository or in the repository folder included with the workspace.
-
-<p align="center">
-<img src="./docs/00_original_processed_img.png">
-</p>
 
 ## Steps
 
